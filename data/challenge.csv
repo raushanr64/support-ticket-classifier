@@ -1,0 +1,41 @@
+text,label
+"Got billed 2x for the same thing, pls fix",billing
+"Where is my money back? You said refund in a week",billing
+"The amount taken from my account is not what the pricing page says",billing
+"Can you resend the invoice for March to my accountant",billing
+"I cancelled but you still took payment today",billing
+"My card expired, how do I put in the new one",billing
+"Charged for 5 seats but we only have 3 users",billing
+"Need a VAT receipt for my purchase",billing
+"Paypal payment went through twice",billing
+"Why did my bill go up this month",billing
+"The site throws an error whenever I click save",technical
+"Everything is super laggy since yesterday",technical
+"Uploads fail at 99 percent every time",technical
+"The iOS app closes itself right after the splash screen",technical
+"Your API is returning gateway timeouts",technical
+"Charts on the analytics page are empty",technical
+"Cannot connect the calendar integration, keeps spinning",technical
+"Download button gives me a corrupted file",technical
+"Autosave is not saving my work and I lost changes",technical
+"Pages take forever to open on wifi and mobile data",technical
+"Can't sign in, it says wrong password but I just changed it",account
+"I want my profile deleted permanently",account
+"Never got the confirmation link after I registered",account
+"Please give my manager admin rights",account
+"Need to switch the login email to my new work address",account
+"My 2FA app codes are rejected",account
+"Locked out of my profile, help",account
+"How do I rename my workspace owner",account
+"Someone logged in from another country, I did not do that",account
+"Can't get back into my account since the reset",account
+"Does your company have an affiliate programme",other
+"Great product, just wanted to say thanks",other
+"Is there a way to meet the founders",other
+"Would you consider adding an Android widget",other
+"What languages do you support",other
+"Do you have a careers page",other
+"Can I use your logo in my presentation",other
+"Interested in reselling your software",other
+"Any events coming up in Europe",other
+"I loved the new design, well done",other

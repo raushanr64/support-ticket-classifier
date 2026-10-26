@@ -1,0 +1,159 @@
+{
+  "labels": [
+    "billing",
+    "technical",
+    "account",
+    "other"
+  ],
+  "majority_class": "technical",
+  "test": {
+    "n": 120,
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "confusion_matrix": [
+      [
+        32,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        38,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        30,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        20
+      ]
+    ],
+    "report": {
+      "billing": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 32.0
+      },
+      "technical": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      },
+      "account": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      },
+      "other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 120.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 120.0
+      }
+    }
+  },
+  "test_baseline": {
+    "accuracy": 0.3167
+  },
+  "challenge": {
+    "n": 40,
+    "accuracy": 0.875,
+    "macro_f1": 0.8758,
+    "confusion_matrix": [
+      [
+        9,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        9,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        9,
+        0
+      ],
+      [
+        0,
+        2,
+        0,
+        8
+      ]
+    ],
+    "report": {
+      "billing": {
+        "precision": 0.8181818181818182,
+        "recall": 0.9,
+        "f1-score": 0.8571428571428571,
+        "support": 10.0
+      },
+      "technical": {
+        "precision": 0.8181818181818182,
+        "recall": 0.9,
+        "f1-score": 0.8571428571428571,
+        "support": 10.0
+      },
+      "account": {
+        "precision": 0.9,
+        "recall": 0.9,
+        "f1-score": 0.9,
+        "support": 10.0
+      },
+      "other": {
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1-score": 0.8888888888888888,
+        "support": 10.0
+      },
+      "accuracy": 0.875,
+      "macro avg": {
+        "precision": 0.8840909090909091,
+        "recall": 0.875,
+        "f1-score": 0.8757936507936508,
+        "support": 40.0
+      },
+      "weighted avg": {
+        "precision": 0.884090909090909,
+        "recall": 0.875,
+        "f1-score": 0.8757936507936508,
+        "support": 40.0
+      }
+    }
+  },
+  "challenge_baseline": {
+    "accuracy": 0.25
+  },
+  "challenge_confidence": {
+    "mean_when_correct": 0.685,
+    "mean_when_wrong": 0.514
+  }
+}
